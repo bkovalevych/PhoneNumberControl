@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="PhoneNumber.PhoneNumberControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PhoneNumber" xmlns:viewmodels="clr-namespace:PhoneNumber.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="400">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Styles/ComboboxStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+            <viewmodels:PhoneNumberControlViewModel x:Key="ViewModel"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource ViewModel}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="{Binding PhoneNumberPart}"/>
+        <ComboBox Style="{DynamicResource PhoneNumberComboBoxStyle}" 
+                  Grid.Column="0" x:Name="LocaleComboBox" SelectionChanged="LocaleComboBox_SelectionChanged" ItemsSource="{Binding FilterableLocales}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding IconSrc}" Width="20" Margin="0,0,5,0"/>
+                        <TextBlock x:Name="LocaleName" Text="{Binding Name}"/>
+                        <TextBlock Text="{Binding Phone}"/>
+                    </StackPanel>
+                    <DataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ComboBoxItem}}, Path=IsSelected}" Value="{x:Null}">
+                            <Setter TargetName="LocaleName" Property="Visibility" Value="Collapsed" />
+                        </DataTrigger>
+                    </DataTemplate.Triggers>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBox Grid.Column="1" x:Name="PhoneNumberTextBox" TextChanged="PhoneNumber_TextChanged"/>
+    </Grid>
+</UserControl>

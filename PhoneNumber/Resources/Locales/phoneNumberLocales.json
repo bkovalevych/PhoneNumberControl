@@ -1,0 +1,1207 @@
+[
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/af.png",
+    "Name": "Afghanistan",
+    "LocaleNames": ["fa", "fa-AF"], "Phone": "+93"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/al.png",
+    "Name": "Albania",
+    "LocaleNames": [ "sq" ], "Phone": "+355"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/dz.png",
+    "Name": "Algeria",
+    "LocaleNames": [ "ar, ar-DZ" ], "Phone": "+213"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/as.png",
+    "Name": "AmericanSamoa",
+    "LocaleNames" : ["en-AS"], "Phone": "+1684"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ad.png",
+    "Name": "Andorra",
+    "LocaleNames" : ["ca", "ca-AD"], "Phone": "+376"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ao.png",
+    "Name": "Angola",
+    "LocaleNames" : ["pt", "pt-AO"], "Phone": "+244"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ai.png",
+    "Name": "Anguilla",
+    "LocaleNames": [ "en-AI" ], "Phone": "+1264"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/aq.png",
+    "Name": "Antarctica",
+    "LocaleNames": [ "en-001" ], "Phone": "+672"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ag.png",
+    "Name": "Antigua and Barbuda",
+    "LocaleNames": [ "en-AG" ], "Phone": "+1268"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ar.png",
+    "Name": "Argentina",
+    "LocaleNames": [ "es-AR" ], "Phone": "+54"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/am.png",
+    "Name": "Armenia",
+    "LocaleNames": [ "hy", "hy-AM" ], "Phone": "+374"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/aw.png",
+    "Name": "Aruba",
+    "LocaleNames": [ "nl", "nl-AW" ], "Phone": "+297"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/au.png",
+    "Name": "Australia",
+    "LocaleNames": [ "en-AU" ], "Phone": "+61"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/at.png",
+    "Name": "Austria",
+    "LocaleNames": [ "de", "de-AT" ], "Phone": "+43"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/az.png",
+    "Name": "Azerbaijan",
+    "LocaleNames": [ "az", "az-Latn-AZ" ], "Phone": "+994"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bs.png",
+    "Name": "Bahamas",
+    "LocaleNames": [ "en-BS" ], "Phone": "+1242"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bh.png",
+    "Name": "Bahrain",
+    "LocaleNames": [ "ar", "ar-BH" ], "Phone": "+973"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bd.png",
+    "Name": "Bangladesh",
+    "LocaleNames": [ "bn", "bn-BD" ], "Phone": "+880"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bb.png",
+    "Name": "Barbados",
+    "LocaleNames": [ "en-BB" ], "Phone": "+1246"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/by.png",
+    "Name": "Belarus",
+    "LocaleNames": [ "be", "be-BY" ], "Phone": "+375"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/be.png",
+    "Name": "Belgium",
+    "LocaleNames": [ "nl", "nl-BE" ], "Phone": "+32"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bz.png",
+    "Name": "Belize",
+    "LocaleNames": [ "en-BZ" ], "Phone": "+501"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bj.png",
+    "Name": "Benin",
+    "LocaleNames": [ "fr", "fr-BJ" ], "Phone": "+229"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bm.png",
+    "Name": "Bermuda",
+    "LocaleNames": [ "en-BM" ], "Phone": "+1441"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bt.png",
+    "Name": "Bhutan",
+    "LocaleNames": [ "dz", "dz-BT" ], "Phone": "+975"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bo.png",
+    "Name": "Bolivia, Plurinational State of",
+    "LocaleNames": [ "es", "es-BO" ], "Phone": "+591"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ba.png",
+    "Name": "Bosnia and Herzegovina",
+    "LocaleNames": [ "bs", "bs-Latn-BA" ], "Phone": "+387"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bw.png",
+    "Name": "Botswana",
+    "LocaleNames": [ "en-BW" ], "Phone": "+267"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/br.png",
+    "Name": "Brazil",
+    "LocaleNames": [ "pt", "pt-BR" ], "Phone": "+55"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/io.png",
+    "Name": "British Indian Ocean Territory",
+    "LocaleNames": [ "en-IO" ], "Phone": "+246"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bn.png",
+    "Name": "Brunei Darussalam",
+    "LocaleNames": [ "ms", "ms-BN" ], "Phone": "+673"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bg.png",
+    "Name": "Bulgaria",
+    "LocaleNames": [ "bg", "bg-BG" ], "Phone": "+359"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bf.png",
+    "Name": "Burkina Faso",
+    "LocaleNames": [ "fr-BF" ], "Phone": "+226"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bi.png",
+    "Name": "Burundi",
+    "LocaleNames": [ "fr-BI" ], "Phone": "+257"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kh.png",
+    "Name": "Cambodia",
+    "LocaleNames": [ "km", "km-KH" ], "Phone": "+855"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cm.png",
+    "Name": "Cameroon",
+    "LocaleNames": [ "fr-CM" ], "Phone": "+237"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ca.png",
+    "Name": "Canada",
+    "LocaleNames": [ "en-CA" ], "Phone": "+1"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cv.png",
+    "Name": "Cape Verde",
+    "LocaleNames": [ "pt", "pt-CV" ], "Phone": "+238"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ky.png",
+    "Name": "Cayman Islands",
+    "LocaleNames": [ "en-KY" ], "Phone": "+345"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cf.png",
+    "Name": "Central African Republic",
+    "LocaleNames": [ "fr-CF" ], "Phone": "+236"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/td.png",
+    "Name": "Chad",
+    "LocaleNames": [ "fr-TD" ], "Phone": "+235"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cl.png",
+    "Name": "Chile",
+    "LocaleNames": [ "es", "es-CL" ], "Phone": "+56"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cn.png",
+    "Name": "China",
+    "LocaleNames": [ "zh", "zh-CN" ], "Phone": "+86"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cx.png",
+    "Name": "Christmas Island",
+    "LocaleNames": [ "en-AU" ], "Phone": "+61"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cc.png",
+    "Name": "Cocos (Keeling) Islands",
+    "LocaleNames": [ "en-AU" ], "Phone": "+61"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/co.png",
+    "Name": "Colombia",
+    "LocaleNames": [ "es-CO" ], "Phone": "+57"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/km.png",
+    "Name": "Comoros",
+    "LocaleNames": [ "ar", "ar-KM" ], "Phone": "+269"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cg.png",
+    "Name": "Congo",
+    "LocaleNames": [ "fr-CG" ], "Phone": "+242"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cd.png",
+    "Name": "Congo, The Democratic Republic of the",
+    "LocaleNames": [ "fr-CD" ], "Phone": "+243"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ck.png",
+    "Name": "Cook Islands",
+    "LocaleNames": [ "en-CK" ], "Phone": "+682"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cr.png",
+    "Name": "Costa Rica",
+    "LocaleNames": [ "es-CR" ], "Phone": "+506"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ci.png",
+    "Name": "Cote d'Ivoire",
+    "LocaleNames": [ "fr-CI" ], "Phone": "+225"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/hr.png",
+    "Name": "Croatia",
+    "LocaleNames": [ "hr", "hr-HR" ], "Phone": "+385"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cu.png",
+    "Name": "Cuba",
+    "LocaleNames": [ "es-CU" ], "Phone": "+53"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cy.png",
+    "Name": "Cyprus",
+    "LocaleNames": [ "el", "el-CY" ], "Phone": "+357"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/cz.png",
+    "Name": "Czech Republic",
+    "LocaleNames": [ "cs", "cs-CZ" ], "Phone": "+420"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/dk.png",
+    "Name": "Denmark",
+    "LocaleNames": [ "da", "da-DK" ], "Phone": "+45"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/dj.png",
+    "Name": "Djibouti",
+    "LocaleNames" : ["aa-DJ"], "Phone": "+253"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/dm.png",
+    "Name": "Dominica",
+    "LocaleNames" : ["en-DM"], "Phone": "+1767"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/do.png",
+    "Name": "Dominican Republic",
+    "LocaleNames" : ["es-DO"], "Phone": "+1849"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ec.png",
+    "Name": "Ecuador",
+    "LocaleNames" : [""], "Phone": "+593"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/eg.png",
+    "Name": "Egypt",
+    "LocaleNames" : [""], "Phone": "+20"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sv.png",
+    "Name": "El Salvador",
+    "LocaleNames" : [""], "Phone": "+503"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gq.png",
+    "Name": "Equatorial Guinea",
+    "LocaleNames" : [""], "Phone": "+240"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/er.png",
+    "Name": "Eritrea",
+    "LocaleNames" : [""], "Phone": "+291"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ee.png",
+    "Name": "Estonia",
+    "LocaleNames" : [""], "Phone": "+372"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/et.png",
+    "Name": "Ethiopia",
+    "LocaleNames" : [""], "Phone": "+251"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fk.png",
+    "Name": "Falkland Islands (Malvinas)",
+    "LocaleNames" : [""], "Phone": "+500"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fo.png",
+    "Name": "Faroe Islands",
+    "LocaleNames" : [""], "Phone": "+298"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fj.png",
+    "Name": "Fiji",
+    "LocaleNames" : [""], "Phone": "+679"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fi.png",
+    "Name": "Finland",
+    "LocaleNames" : [""], "Phone": "+358"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fr.png",
+    "Name": "France",
+    "LocaleNames" : [""], "Phone": "+33"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gf.png",
+    "Name": "French Guiana",
+    "LocaleNames" : [""], "Phone": "+594"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pf.png",
+    "Name": "French Polynesia",
+    "LocaleNames" : [""], "Phone": "+689"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ga.png",
+    "Name": "Gabon",
+    "LocaleNames" : [""], "Phone": "+241"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gm.png",
+    "Name": "Gambia",
+    "LocaleNames" : [""], "Phone": "+220"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ge.png",
+    "Name": "Georgia",
+    "LocaleNames" : [""], "Phone": "+995"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/de.png",
+    "Name": "Germany",
+    "LocaleNames" : [""], "Phone": "+49"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gh.png",
+    "Name": "Ghana",
+    "LocaleNames" : [""], "Phone": "+233"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gi.png",
+    "Name": "Gibraltar",
+    "LocaleNames" : [""], "Phone": "+350"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gr.png",
+    "Name": "Greece",
+    "LocaleNames" : [""], "Phone": "+30"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gl.png",
+    "Name": "Greenland",
+    "LocaleNames" : [""], "Phone": "+299"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gd.png",
+    "Name": "Grenada",
+    "LocaleNames" : [""], "Phone": "+1473"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gp.png",
+    "Name": "Guadeloupe",
+    "LocaleNames" : [""], "Phone": "+590"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gu.png",
+    "Name": "Guam",
+    "LocaleNames" : [""], "Phone": "+1671"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gt.png",
+    "Name": "Guatemala",
+    "LocaleNames" : [""], "Phone": "+502"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gg.png",
+    "Name": "Guernsey",
+    "LocaleNames" : [""], "Phone": "+44"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gn.png",
+    "Name": "Guinea",
+    "LocaleNames" : [""], "Phone": "+224"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gw.png",
+    "Name": "Guinea-Bissau",
+    "LocaleNames" : [""], "Phone": "+245"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gy.png",
+    "Name": "Guyana",
+    "LocaleNames" : [""], "Phone": "+592"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ht.png",
+    "Name": "Haiti",
+    "LocaleNames" : [""], "Phone": "+509"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/va.png",
+    "Name": "Holy See (Vatican City State)",
+    "LocaleNames" : [""], "Phone": "+379"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/hn.png",
+    "Name": "Honduras",
+    "LocaleNames" : [""], "Phone": "+504"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/hk.png",
+    "Name": "Hong Kong",
+    "LocaleNames" : [""], "Phone": "+852"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/hu.png",
+    "Name": "Hungary",
+    "LocaleNames" : [""], "Phone": "+36"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/is.png",
+    "Name": "Iceland",
+    "LocaleNames" : [""], "Phone": "+354"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/in.png",
+    "Name": "India",
+    "LocaleNames" : [""], "Phone": "+91"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/id.png",
+    "Name": "Indonesia",
+    "LocaleNames" : [""], "Phone": "+62"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ir.png",
+    "Name": "Iran, Islamic Republic of",
+    "LocaleNames" : [""], "Phone": "+98"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/iq.png",
+    "Name": "Iraq",
+    "LocaleNames" : [""], "Phone": "+964"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ie.png",
+    "Name": "Ireland",
+    "LocaleNames" : [""], "Phone": "+353"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/im.png",
+    "Name": "Isle of Man",
+    "LocaleNames" : [""], "Phone": "+44"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/il.png",
+    "Name": "Israel",
+    "LocaleNames" : [""], "Phone": "+972"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/it.png",
+    "Name": "Italy",
+    "LocaleNames" : [""], "Phone": "+39"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/jm.png",
+    "Name": "Jamaica",
+    "LocaleNames" : [""], "Phone": "+1876"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/jp.png",
+    "Name": "Japan",
+    "LocaleNames" : [""], "Phone": "+81"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/je.png",
+    "Name": "Jersey",
+    "LocaleNames" : [""], "Phone": "+44"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/jo.png",
+    "Name": "Jordan",
+    "LocaleNames" : [""], "Phone": "+962"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kz.png",
+    "Name": "Kazakhstan",
+    "LocaleNames" : [""], "Phone": "+77"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ke.png",
+    "Name": "Kenya",
+    "LocaleNames" : [""], "Phone": "+254"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ki.png",
+    "Name": "Kiribati",
+    "LocaleNames" : [""], "Phone": "+686"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kp.png",
+    "Name": "Korea, Democratic People's Republic of",
+    "LocaleNames" : [""], "Phone": "+850"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kr.png",
+    "Name": "Korea, Republic of",
+    "LocaleNames" : [""], "Phone": "+82"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kw.png",
+    "Name": "Kuwait",
+    "LocaleNames" : [""], "Phone": "+965"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kg.png",
+    "Name": "Kyrgyzstan",
+    "LocaleNames" : [""], "Phone": "+996"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/la.png",
+    "Name": "Lao People's Democratic Republic",
+    "LocaleNames" : [""], "Phone": "+856"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lv.png",
+    "Name": "Latvia",
+    "LocaleNames" : [""], "Phone": "+371"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lb.png",
+    "Name": "Lebanon",
+    "LocaleNames" : [""], "Phone": "+961"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ls.png",
+    "Name": "Lesotho",
+    "LocaleNames" : [""], "Phone": "+266"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lr.png",
+    "Name": "Liberia",
+    "LocaleNames" : [""], "Phone": "+231"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ly.png",
+    "Name": "Libyan Arab Jamahiriya",
+    "LocaleNames" : [""], "Phone": "+218"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/li.png",
+    "Name": "Liechtenstein",
+    "LocaleNames" : [""], "Phone": "+423"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lt.png",
+    "Name": "Lithuania",
+    "LocaleNames" : [""], "Phone": "+370"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lu.png",
+    "Name": "Luxembourg",
+    "LocaleNames" : [""], "Phone": "+352"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mo.png",
+    "Name": "Macao",
+    "LocaleNames" : [""], "Phone": "+853"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mk.png",
+    "Name": "Macedonia, The Former Yugoslav Republic of",
+    "LocaleNames" : [""], "Phone": "+389"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mg.png",
+    "Name": "Madagascar",
+    "LocaleNames" : [""], "Phone": "+261"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mw.png",
+    "Name": "Malawi",
+    "LocaleNames" : [""], "Phone": "+265"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/my.png",
+    "Name": "Malaysia",
+    "LocaleNames" : [""], "Phone": "+60"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mv.png",
+    "Name": "Maldives",
+    "LocaleNames" : [""], "Phone": "+960"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ml.png",
+    "Name": "Mali",
+    "LocaleNames" : [""], "Phone": "+223"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mt.png",
+    "Name": "Malta",
+    "LocaleNames" : [""], "Phone": "+356"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mh.png",
+    "Name": "Marshall Islands",
+    "LocaleNames" : [""], "Phone": "+692"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mq.png",
+    "Name": "Martinique",
+    "LocaleNames" : [""], "Phone": "+596"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mr.png",
+    "Name": "Mauritania",
+    "LocaleNames" : [""], "Phone": "+222"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mu.png",
+    "Name": "Mauritius",
+    "LocaleNames" : [""], "Phone": "+230"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/yt.png",
+    "Name": "Mayotte",
+    "LocaleNames" : [""], "Phone": "+262"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mx.png",
+    "Name": "Mexico",
+    "LocaleNames" : [""], "Phone": "+52"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/fm.png",
+    "Name": "Micronesia, Federated States of",
+    "LocaleNames" : [""], "Phone": "+691"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/md.png",
+    "Name": "Moldova, Republic of",
+    "LocaleNames" : [""], "Phone": "+373"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mc.png",
+    "Name": "Monaco",
+    "LocaleNames" : [""], "Phone": "+377"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mn.png",
+    "Name": "Mongolia",
+    "LocaleNames" : [""], "Phone": "+976"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/me.png",
+    "Name": "Montenegro",
+    "LocaleNames" : [""], "Phone": "+382"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ms.png",
+    "Name": "Montserrat",
+    "LocaleNames" : [""], "Phone": "+1664"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ma.png",
+    "Name": "Morocco",
+    "LocaleNames" : [""], "Phone": "+212"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mz.png",
+    "Name": "Mozambique",
+    "LocaleNames" : [""], "Phone": "+258"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mm.png",
+    "Name": "Myanmar",
+    "LocaleNames" : [""], "Phone": "+95"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/na.png",
+    "Name": "Namibia",
+    "LocaleNames" : [""], "Phone": "+264"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nr.png",
+    "Name": "Nauru",
+    "LocaleNames" : [""], "Phone": "+674"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/np.png",
+    "Name": "Nepal",
+    "LocaleNames" : [""], "Phone": "+977"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nl.png",
+    "Name": "Netherlands",
+    "LocaleNames" : [""], "Phone": "+31"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nc.png",
+    "Name": "New Caledonia",
+    "LocaleNames" : [""], "Phone": "+687"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nz.png",
+    "Name": "New Zealand",
+    "LocaleNames" : [""], "Phone": "+64"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ni.png",
+    "Name": "Nicaragua",
+    "LocaleNames" : [""], "Phone": "+505"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ne.png",
+    "Name": "Niger",
+    "LocaleNames" : [""], "Phone": "+227"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ng.png",
+    "Name": "Nigeria",
+    "LocaleNames" : [""], "Phone": "+234"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nu.png",
+    "Name": "Niue",
+    "LocaleNames" : [""], "Phone": "+683"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/nf.png",
+    "Name": "Norfolk Island",
+    "LocaleNames" : [""], "Phone": "+672"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mp.png",
+    "Name": "Northern Mariana Islands",
+    "LocaleNames" : [""], "Phone": "+1670"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/no.png",
+    "Name": "Norway",
+    "LocaleNames" : [""], "Phone": "+47"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/om.png",
+    "Name": "Oman",
+    "LocaleNames" : [""], "Phone": "+968"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pk.png",
+    "Name": "Pakistan",
+    "LocaleNames" : [""], "Phone": "+92"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pw.png",
+    "Name": "Palau",
+    "LocaleNames" : [""], "Phone": "+680"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ps.png",
+    "Name": "Palestinian Territory, Occupied",
+    "LocaleNames" : [""], "Phone": "+970"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pa.png",
+    "Name": "Panama",
+    "LocaleNames" : [""], "Phone": "+507"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pg.png",
+    "Name": "Papua New Guinea",
+    "LocaleNames" : [""], "Phone": "+675"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/py.png",
+    "Name": "Paraguay",
+    "LocaleNames" : [""], "Phone": "+595"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pe.png",
+    "Name": "Peru",
+    "LocaleNames" : [""], "Phone": "+51"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ph.png",
+    "Name": "Philippines",
+    "LocaleNames" : [""], "Phone": "+63"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pn.png",
+    "Name": "Pitcairn",
+    "LocaleNames" : [""], "Phone": "+872"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pl.png",
+    "Name": "Poland",
+    "LocaleNames" : [""], "Phone": "+48"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pt.png",
+    "Name": "Portugal",
+    "LocaleNames" : [""], "Phone": "+351"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pr.png",
+    "Name": "Puerto Rico",
+    "LocaleNames" : [""], "Phone": "+1939"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/qa.png",
+    "Name": "Qatar",
+    "LocaleNames" : [""], "Phone": "+974"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ro.png",
+    "Name": "Romania",
+    "LocaleNames" : [""], "Phone": "+40"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ru.png",
+    "Name": "Russia",
+    "LocaleNames" : [""], "Phone": "+7"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/rw.png",
+    "Name": "Rwanda",
+    "LocaleNames" : [""], "Phone": "+250"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/re.png",
+    "Name": "Réunion",
+    "LocaleNames" : [""], "Phone": "+262"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/bl.png",
+    "Name": "Saint Barthélemy",
+    "LocaleNames" : [""], "Phone": "+590"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sh.png",
+    "Name": "Saint Helena, Ascension and Tristan Da Cunha",
+    "LocaleNames" : [""], "Phone": "+290"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/kn.png",
+    "Name": "Saint Kitts and Nevis",
+    "LocaleNames" : [""], "Phone": "+1869"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lc.png",
+    "Name": "Saint Lucia",
+    "LocaleNames" : [""], "Phone": "+1758"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/mf.png",
+    "Name": "Saint Martin",
+    "LocaleNames" : [""], "Phone": "+590"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/pm.png",
+    "Name": "Saint Pierre and Miquelon",
+    "LocaleNames" : [""], "Phone": "+508"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/vc.png",
+    "Name": "Saint Vincent and the Grenadines",
+    "LocaleNames" : [""], "Phone": "+1784"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ws.png",
+    "Name": "Samoa",
+    "LocaleNames" : [""], "Phone": "+685"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sm.png",
+    "Name": "San Marino",
+    "LocaleNames" : [""], "Phone": "+378"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/st.png",
+    "Name": "Sao Tome and Principe",
+    "LocaleNames" : [""], "Phone": "+239"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sa.png",
+    "Name": "Saudi Arabia",
+    "LocaleNames" : [""], "Phone": "+966"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sn.png",
+    "Name": "Senegal",
+    "LocaleNames" : [""], "Phone": "+221"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/rs.png",
+    "Name": "Serbia",
+    "LocaleNames" : [""], "Phone": "+381"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sc.png",
+    "Name": "Seychelles",
+    "LocaleNames" : [""], "Phone": "+248"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sl.png",
+    "Name": "Sierra Leone",
+    "LocaleNames" : [""], "Phone": "+232"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sg.png",
+    "Name": "Singapore",
+    "LocaleNames" : [""], "Phone": "+65"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sk.png",
+    "Name": "Slovakia",
+    "LocaleNames" : [""], "Phone": "+421"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/si.png",
+    "Name": "Slovenia",
+    "LocaleNames" : [""], "Phone": "+386"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sb.png",
+    "Name": "Solomon Islands",
+    "LocaleNames" : [""], "Phone": "+677"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/so.png",
+    "Name": "Somalia",
+    "LocaleNames" : [""], "Phone": "+252"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/za.png",
+    "Name": "South Africa",
+    "LocaleNames" : [""], "Phone": "+27"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gs.png",
+    "Name": "South Georgia and the South Sandwich Islands",
+    "LocaleNames" : [""], "Phone": "+500"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/es.png",
+    "Name": "Spain",
+    "LocaleNames" : [""], "Phone": "+34"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/lk.png",
+    "Name": "Sri Lanka",
+    "LocaleNames" : [""], "Phone": "+94"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sd.png",
+    "Name": "Sudan",
+    "LocaleNames" : [""], "Phone": "+249"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ss.png",
+    "Name": "South Sudan",
+    "LocaleNames" : [""], "Phone": "+211"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sr.png",
+    "Name": "SuriName",
+    "LocaleNames" : [""], "Phone": "+597"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sj.png",
+    "Name": "Svalbard and Jan Mayen",
+    "LocaleNames" : [""], "Phone": "+47"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sz.png",
+    "Name": "Swaziland",
+    "LocaleNames" : [""], "Phone": "+268"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/se.png",
+    "Name": "Sweden",
+    "LocaleNames" : [""], "Phone": "+46"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ch.png",
+    "Name": "Switzerland",
+    "LocaleNames" : [""], "Phone": "+41"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/sy.png",
+    "Name": "Syrian Arab Republic",
+    "LocaleNames" : [""], "Phone": "+963"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tw.png",
+    "Name": "Taiwan, Province of China",
+    "LocaleNames" : [""], "Phone": "+886"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tj.png",
+    "Name": "Tajikistan",
+    "LocaleNames" : [""], "Phone": "+992"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tz.png",
+    "Name": "Tanzania, United Republic of",
+    "LocaleNames" : [""], "Phone": "+255"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/th.png",
+    "Name": "Thailand",
+    "LocaleNames" : [""], "Phone": "+66"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tl.png",
+    "Name": "Timor-Leste",
+    "LocaleNames" : [""], "Phone": "+670"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tg.png",
+    "Name": "Togo",
+    "LocaleNames" : [""], "Phone": "+228"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tk.png",
+    "Name": "Tokelau",
+    "LocaleNames" : [""], "Phone": "+690"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/to.png",
+    "Name": "Tonga",
+    "LocaleNames" : [""], "Phone": "+676"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tt.png",
+    "Name": "Trinidad and Tobago",
+    "LocaleNames" : [""], "Phone": "+1868"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tn.png",
+    "Name": "Tunisia",
+    "LocaleNames" : [""], "Phone": "+216"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tr.png",
+    "Name": "Turkey",
+    "LocaleNames" : [""], "Phone": "+90"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tm.png",
+    "Name": "Turkmenistan",
+    "LocaleNames" : [""], "Phone": "+993"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tc.png",
+    "Name": "Turks and Caicos Islands",
+    "LocaleNames" : [""], "Phone": "+1649"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/tv.png",
+    "Name": "Tuvalu",
+    "LocaleNames" : [""], "Phone": "+688"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ug.png",
+    "Name": "Uganda",
+    "LocaleNames" : [""], "Phone": "+256"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ua.png",
+    "Name": "Ukraine",
+    "LocaleNames" : [""], "Phone": "+380"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ae.png",
+    "Name": "United Arab Emirates",
+    "LocaleNames" : [""], "Phone": "+971"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/gb.png",
+    "Name": "United Kingdom",
+    "LocaleNames" : [""], "Phone": "+44"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/us.png",
+    "Name": "United States",
+    "LocaleNames" : [""], "Phone": "+1"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/uy.png",
+    "Name": "Uruguay",
+    "LocaleNames" : [""], "Phone": "+598"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/uz.png",
+    "Name": "Uzbekistan",
+    "LocaleNames" : [""], "Phone": "+998"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/vu.png",
+    "Name": "Vanuatu",
+    "LocaleNames" : [""], "Phone": "+678"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ve.png",
+    "Name": "Venezuela, Bolivarian Republic of",
+    "LocaleNames" : [""], "Phone": "+58"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/vn.png",
+    "Name": "Viet Nam",
+    "LocaleNames" : [""], "Phone": "+84"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/vg.png",
+    "Name": "Virgin Islands, British",
+    "LocaleNames" : [""], "Phone": "+1284"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/vi.png",
+    "Name": "Virgin Islands, U.S.",
+    "LocaleNames" : [""], "Phone": "+1340"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/wf.png",
+    "Name": "Wallis and Futuna",
+    "LocaleNames" : [""], "Phone": "+681"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ye.png",
+    "Name": "Yemen",
+    "LocaleNames" : [""], "Phone": "+967"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/zm.png",
+    "Name": "Zambia",
+    "LocaleNames" : [""], "Phone": "+260"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/zw.png",
+    "Name": "Zimbabwe",
+    "LocaleNames" : [""], "Phone": "+263"
+  },
+  {
+    "IconSrc": "/PhoneNumber;component/Resources/Locales/flags/ax.png",
+    "Name": "Åland Islands",
+    "LocaleNames" : [""], "Phone": "+358"
+  }
+]
