@@ -41,16 +41,5 @@ namespace PhoneNumberControl.SampleWithBinding
         
         
         public event PropertyChangedEventHandler PropertyChanged;
-
-        public List<Item> Items { get; set; } = new List<Item>()
-        {
-            new Item() {Name = "name1"},
-            new Item() {Name = "2"},
-        };
-
-        public class Item
-        {
-            public string Name { get; set; }
-        }
     }
 }
