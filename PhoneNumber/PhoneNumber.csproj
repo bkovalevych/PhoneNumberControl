@@ -4,6 +4,14 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
+    <AssemblyName>$(MSBuildProjectName).WPF</AssemblyName>
+    <Title>Phone number wpf </Title>
+    <Authors>Bohdan Kovalevych</Authors>
+    <Description>A wpf ui control for phone number input with country locale</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bkovalevych/PhoneNumberControl</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>phonenumber;ui;wpf;usercontrol;phonenumber input</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
