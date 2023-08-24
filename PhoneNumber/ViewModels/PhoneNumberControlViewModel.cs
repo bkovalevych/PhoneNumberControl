@@ -1,7 +1,10 @@
 ﻿using PhoneNumber.Models;
 using PhoneNumber.Services;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace PhoneNumber.ViewModels
 {
@@ -10,9 +13,12 @@ namespace PhoneNumber.ViewModels
         private string _searchText = string.Empty;
         private readonly PhoneLocaleService _phoneLocaleService;
         private const string DefaultLocaleName = "United States";
-        
+        private ICommand _clearFilterCommand;
+
         private PhoneNumberLocale _selectedLocale;
         private string _phoneNumberPart;
+        private PhoneNumberLocale _firstLocale;
+        private List<PhoneNumberLocale> _locales { get; set; } = new List<PhoneNumberLocale>();
 
         public PhoneNumberControlViewModel()
         {
@@ -23,7 +29,12 @@ namespace PhoneNumber.ViewModels
         public string PhoneNumberPart { get => _phoneNumberPart; set => SetProperty(ref _phoneNumberPart, value); }
         public PhoneNumberLocale SelectedLocale { get => _selectedLocale; set => SetProperty(ref _selectedLocale, value); }
 
-        public ObservableCollection<PhoneNumberLocaleViewModel> FilterableLocales { get; set; } = new ObservableCollection<PhoneNumberLocaleViewModel>();
+        public ObservableCollection<PhoneNumberLocale> FilterableLocales { get; set; } = new ObservableCollection<PhoneNumberLocale>();
+        
+        public ICommand ClearFilterCommand => _clearFilterCommand ??= new Command(() =>
+        {
+            SearchText = string.Empty;
+        });
 
         public string FullPhoneNumber()
         {
@@ -34,19 +45,44 @@ namespace PhoneNumber.ViewModels
 
         public void Filter()
         {
-            foreach (var locale in FilterableLocales)
+            for (var i = FilterableLocales.Count - 1; i >= 0; --i)
             {
-                locale.Hidden = SearchText != null && !locale.Name.StartsWith(SearchText, System.StringComparison.OrdinalIgnoreCase);
+                if (FilterableLocales[i] != SelectedLocale)
+                {
+                    FilterableLocales.RemoveAt(i);
+                }
+            }
+            if (SelectedLocale != _firstLocale)
+            {
+                FilterableLocales.Insert(0, _firstLocale);
+            }
+
+            var filtered = _locales.Where(x =>
+                x.Name != _firstLocale?.Name
+                && x.Name != SelectedLocale?.Name
+                && (string.IsNullOrEmpty(SearchText)
+                    || x.Name.ToLower().Contains(SearchText.ToLower())
+                    || x.Phone.ToLower().Contains(SearchText.ToLower()))
+                );
+
+            foreach (var locale in filtered)
+            {
+                FilterableLocales.Add(locale);
             }
         }
 
         public async Task OnLoaded()
         {
-            var locales = await _phoneLocaleService.LoadLocales();
-            foreach (var locale in locales)
+            _locales = await _phoneLocaleService.LoadLocales();
+            _firstLocale = _locales.FirstOrDefault(x => x.Name == DefaultLocaleName);
+            FilterableLocales.Add(_firstLocale);
+
+            foreach (var locale in _locales.Where(x => x != _firstLocale))
             {
-                FilterableLocales.Add(new PhoneNumberLocaleViewModel(locale));
+                FilterableLocales.Add(locale);
             }
+
+            SelectedLocale = _firstLocale;
         }
     }
 }

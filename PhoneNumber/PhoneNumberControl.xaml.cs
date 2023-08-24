@@ -1,22 +1,9 @@
 using PhoneNumber.Models;
-using PhoneNumber.Services;
 using PhoneNumber.ViewModels;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PhoneNumber
 {
@@ -26,20 +13,41 @@ namespace PhoneNumber
     public partial class PhoneNumberControl : UserControl
     {
         public static readonly DependencyProperty FullPhoneNumberPropery = DependencyProperty.Register
-            (nameof(FullPhoneNumber), typeof(string), 
-            typeof(PhoneNumberControl),
-            new PropertyMetadata("hello", new PropertyChangedCallback((d, e) =>
+            (nameof(FullPhoneNumber), typeof(string),
+            typeof(PhoneNumberControl));
+
+        public static readonly DependencyProperty PhoneLocalePropery = DependencyProperty.Register
+            (nameof(PhoneLocale), typeof(PhoneNumberLocale),
+            typeof(PhoneNumberControl), new PropertyMetadata((sender, e) =>
             {
+                var vm = GetVM(sender);
+                vm.SelectedLocale = (PhoneNumberLocale)e.NewValue;
+            }));
 
-            })));
+        public static readonly DependencyProperty PhoneNumberPropery = DependencyProperty.Register
+            (nameof(PhoneNumber), typeof(string),
+            typeof(PhoneNumberControl), new PropertyMetadata((sender, e) =>
+            {
+                var vm = GetVM(sender);
+                vm.PhoneNumberPart = (string)e.NewValue;
+            }));
 
-        public event EventHandler<string> FullPhoneNumberChanged;
-        event EventHandler<PhoneNumberLocaleViewModel> PhoneLocaleChanged;
-        public event EventHandler<TextChangedEventArgs> PhoneNumberChanged;
+        public string FullPhoneNumber
+        {
+            get => (string)GetValue(FullPhoneNumberPropery);
+            set => SetValue(FullPhoneNumberPropery, value);
+        }
 
-        public string FullPhoneNumber { 
-            get => (string)GetValue(FullPhoneNumberPropery); 
-            set => SetValue(FullPhoneNumberPropery, value); 
+        public string PhoneNumber
+        {
+            get => (string)GetValue(PhoneNumberPropery);
+            set => SetValue(PhoneNumberPropery, value);
+        }
+
+        public PhoneNumberLocale PhoneLocale
+        {
+            get => (PhoneNumberLocale)GetValue(PhoneLocalePropery);
+            set => SetValue(PhoneLocalePropery, value);
         }
 
         private readonly PhoneNumberControlViewModel _vm;
@@ -49,36 +57,37 @@ namespace PhoneNumber
         public PhoneNumberControl()
         {
             InitializeComponent();
-            _vm = (PhoneNumberControlViewModel)FindResource("ViewModel");
+            _vm = GetVM(this);
             Loaded += async (sender, e) =>
             {
                 await _vm.OnLoaded();
             };
+        }
 
-            var t = new Timer(5000);
-            t.Elapsed += (sender, e) =>
-            {
-                t.Stop();
-                _vm.PhoneNumberPart = "124";
-            };
-            t.Start();
+        private static PhoneNumberControlViewModel GetVM(DependencyObject d)
+        {
+            var control = (d as PhoneNumberControl);
+            var vm = (PhoneNumberControlViewModel)control.FindResource("ViewModel");
+
+            return vm;
         }
 
         private void PhoneNumber_TextChanged(object sender, TextChangedEventArgs e)
         {
-            var phoneText = PhoneNumberTextBox.Text;
-            var phoneLocale = LocaleComboBox.SelectedValue as PhoneNumberLocaleViewModel;
-            PhoneNumberChanged?.Invoke(this, e);
-            FullPhoneNumber = GetFullPhoneNumber(phoneLocale?.Phone, phoneText);
-            FullPhoneNumberChanged?.Invoke(this, FullPhoneNumber);
+            InvokeChanged();
         }
 
         private void LocaleComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var phoneText = PhoneNumberTextBox.Text;
-            var phoneLocale = LocaleComboBox.SelectedValue as PhoneNumberLocaleViewModel;
-            PhoneLocaleChanged?.Invoke(this, phoneLocale);
-            FullPhoneNumber = GetFullPhoneNumber(phoneLocale?.Phone, phoneText);
+            InvokeChanged();
+        }
+
+        private void InvokeChanged()
+        {
+            PhoneNumber = PhoneNumberTextBox.Text;
+            PhoneLocale = LocaleComboBox.SelectedValue as PhoneNumberLocale;
+            PhoneLocaleChanged?.Invoke(this, PhoneLocale);
+            FullPhoneNumber = GetFullPhoneNumber(PhoneLocale?.Phone, PhoneNumber);
             FullPhoneNumberChanged?.Invoke(this, FullPhoneNumber);
         }
 
@@ -88,5 +97,9 @@ namespace PhoneNumber
                 ? string.Empty
                 : locale + phoneNumber;
         }
+
+        public event EventHandler<string> FullPhoneNumberChanged;
+        public event EventHandler<PhoneNumberLocale> PhoneLocaleChanged;
+        public event EventHandler<TextChangedEventArgs> PhoneNumberChanged;
     }
 }

@@ -1,10 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using PhoneNumber.Models;
+using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace PhoneNumberControl.Sample
+namespace PhoneNumberControl.SampleWithBinding
 {
     internal class Vm : INotifyPropertyChanged
     {
+        private string _fullPhoneNumber;
+        private string _phoneNumber;
+        private PhoneNumberLocale _phoneLocale;
         public string FullPhoneNumber
         {
             get => _fullPhoneNumber;
@@ -14,11 +18,28 @@ namespace PhoneNumberControl.Sample
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("FullPhoneNumber"));
             }
         }
-        private string _outer = "outer";
-        private string _fullPhoneNumber;
 
-        public string Outer { get => _outer; set { _outer = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Outer")); } }
+        public string PhoneNumber
+        {
+            get => _phoneNumber;
+            set
+            {
+                _phoneNumber = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("PhoneNumber"));
+            }
+        }
 
+        public PhoneNumberLocale PhoneLocale
+        {
+            get => _phoneLocale;
+            set
+            {
+                _phoneLocale = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("PhoneLocale"));
+            }
+        }
+        
+        
         public event PropertyChangedEventHandler PropertyChanged;
 
         public List<Item> Items { get; set; } = new List<Item>()

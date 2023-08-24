@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Globalization;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
-namespace PhoneNumberControl.Sample
+namespace PhoneNumberControl.SampleWithBinding
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -16,7 +9,7 @@ namespace PhoneNumberControl.Sample
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            
+
         }
     }
 }

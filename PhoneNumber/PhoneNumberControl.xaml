@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PhoneNumber" xmlns:viewmodels="clr-namespace:PhoneNumber.ViewModels"
              mc:Ignorable="d" 
-             d:DesignHeight="400" d:DesignWidth="400">
+             d:DesignHeight="45" d:DesignWidth="200">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -20,9 +20,11 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="{Binding PhoneNumberPart}"/>
         <ComboBox Style="{DynamicResource PhoneNumberComboBoxStyle}" 
-                  Grid.Column="0" x:Name="LocaleComboBox" SelectionChanged="LocaleComboBox_SelectionChanged" ItemsSource="{Binding FilterableLocales}">
+                  Grid.Column="0" x:Name="LocaleComboBox" 
+                  SelectionChanged="LocaleComboBox_SelectionChanged" 
+                  SelectedItem="{Binding SelectedLocale}"
+                  ItemsSource="{Binding FilterableLocales}">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -38,6 +40,6 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <TextBox Grid.Column="1" x:Name="PhoneNumberTextBox" TextChanged="PhoneNumber_TextChanged"/>
+        <TextBox Grid.Column="1" x:Name="PhoneNumberTextBox" TextChanged="PhoneNumber_TextChanged" Text="{Binding PhoneNumberPart}"/>
     </Grid>
 </UserControl>

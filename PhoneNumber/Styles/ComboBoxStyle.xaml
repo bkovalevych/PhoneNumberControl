@@ -2,11 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Style x:Key="ComboBoxItemContainerStyle"  TargetType="ComboBoxItem">
-        <Style.Triggers>
-            <DataTrigger Binding="{Binding Hidden}" Value="True">
-                <Setter Property="Visibility" Value="Collapsed" />
-            </DataTrigger>
-        </Style.Triggers>
+        
     </Style>
     <Style x:Key="FocusVisual">
         <Setter Property="Control.Template">

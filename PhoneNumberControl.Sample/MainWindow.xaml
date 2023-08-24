@@ -1,27 +1,26 @@
-﻿<Window x:Class="PhoneNumberControl.Sample.MainWindow"
+﻿<Window x:Class="PhoneNumberControl.SampleWithBinding.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PhoneNumberControl.Sample"
+        xmlns:local="clr-namespace:PhoneNumberControl.SampleWithBinding"
         xmlns:control="clr-namespace:PhoneNumber;assembly=PhoneNumber" 
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Sample With Binding" Height="400" Width="400">
     <Window.DataContext>
         <local:Vm/>
     </Window.DataContext>
-    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <TextBlock Text="{Binding FullPhoneNumber}"/>
-        <control:PhoneNumberControl Width="200" FullPhoneNumber="{Binding FullPhoneNumber, Mode=OneWayToSource}"/>
-        <ItemsControl ItemsSource="{Binding Items}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <DockPanel>
-                        <TextBlock Text="{Binding Name}"/>
-                        <TextBlock Text="{Binding Path=DataContext.Outer, RelativeSource={RelativeSource AncestorType=Window}}"/>
-                    </DockPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" TextBlock.FontSize="14">
+        <TextBlock><Run>Full number is:</Run><Run Text="{Binding FullPhoneNumber}"/></TextBlock>
+        <TextBlock><Run>Phone number without locale is:</Run><Run Text="{Binding PhoneNumber}"/></TextBlock>
+        <TextBox Text="{Binding PhoneNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock><Run>Locale part name is:</Run><Run Text="{Binding PhoneLocale.Name}"/></TextBlock>
+        <TextBlock><Run>Locale part phone is:</Run><Run Text="{Binding PhoneLocale.Phone}"/></TextBlock>
+        
+        <control:PhoneNumberControl 
+            Width="200" 
+            FullPhoneNumber="{Binding FullPhoneNumber, Mode=OneWayToSource}"
+            PhoneLocale="{Binding PhoneLocale, Mode=OneWayToSource}"
+            PhoneNumber="{Binding PhoneNumber, Mode=TwoWay}"/>
     </StackPanel>
 </Window>
