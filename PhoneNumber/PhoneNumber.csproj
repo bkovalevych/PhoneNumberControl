@@ -11,7 +11,7 @@
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/bkovalevych/PhoneNumberControl</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageTags>phonenumber;ui;wpf;usercontrol;phonenumber input</PackageTags>
+    <PackageTags>phonenumber;ui;wpf;usercontrol;phonenumber input;uilib</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
