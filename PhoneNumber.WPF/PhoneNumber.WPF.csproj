@@ -5,13 +5,17 @@
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-    <Title>Phone number wpf </Title>
+    <Title>Phone number wpf</Title>
     <Authors>Bohdan Kovalevych</Authors>
     <Description>A wpf ui control for phone number input with country locale</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/bkovalevych/PhoneNumberControl</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>phonenumber;ui;wpf;usercontrol;phonenumber input;uilib</PackageTags>
+    <PackageIcon>PhoneNumberLogo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © 2023</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -29,6 +33,29 @@
   <ItemGroup>
 	<Resource Include="Resources\Locales\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\PhoneNumberLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\PhoneNumberLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
 </Project>
