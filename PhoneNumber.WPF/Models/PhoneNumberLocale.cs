@@ -1,4 +1,4 @@
-﻿namespace PhoneNumber.Models
+﻿namespace PhoneNumber.WPF.Models
 {
     public class PhoneNumberLocale
     {

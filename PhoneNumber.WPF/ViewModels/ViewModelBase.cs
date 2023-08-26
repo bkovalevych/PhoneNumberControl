@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace PhoneNumber.ViewModels
+namespace PhoneNumber.WPF.ViewModels
 {
-    public class ViewModelBase : INotifyPropertyChanged
+    internal class ViewModelBase : INotifyPropertyChanged
     {
         /// <summary>
         /// Occurs when a property value changes.
@@ -45,7 +44,7 @@ namespace PhoneNumber.ViewModels
 
             // ReSharper disable once ExplicitCallerInfoArgument
             this.RaisePropertyChanged(propertyName);
-            
+
 
             return true;
         }

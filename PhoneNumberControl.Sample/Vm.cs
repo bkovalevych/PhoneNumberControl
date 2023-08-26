@@ -1,5 +1,4 @@
-﻿using PhoneNumber.Models;
-using System.Collections.Generic;
+﻿using PhoneNumber.WPF.Models;
 using System.ComponentModel;
 
 namespace PhoneNumberControl.SampleWithBinding
@@ -14,7 +13,7 @@ namespace PhoneNumberControl.SampleWithBinding
             get => _fullPhoneNumber;
             set
             {
-                _fullPhoneNumber = value; 
+                _fullPhoneNumber = value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("FullPhoneNumber"));
             }
         }
@@ -38,8 +37,8 @@ namespace PhoneNumberControl.SampleWithBinding
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("PhoneLocale"));
             }
         }
-        
-        
+
+
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }

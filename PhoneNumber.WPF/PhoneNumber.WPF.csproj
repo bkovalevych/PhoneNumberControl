@@ -4,7 +4,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
-    <AssemblyName>$(MSBuildProjectName).WPF</AssemblyName>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
     <Title>Phone number wpf </Title>
     <Authors>Bohdan Kovalevych</Authors>
     <Description>A wpf ui control for phone number input with country locale</Description>
@@ -12,6 +12,14 @@
     <RepositoryUrl>https://github.com/bkovalevych/PhoneNumberControl</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>phonenumber;ui;wpf;usercontrol;phonenumber input;uilib</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

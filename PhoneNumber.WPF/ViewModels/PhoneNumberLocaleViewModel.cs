@@ -1,6 +1,6 @@
-﻿using PhoneNumber.Models;
+﻿using PhoneNumber.WPF.Models;
 
-namespace PhoneNumber.ViewModels
+namespace PhoneNumber.WPF.ViewModels
 {
     internal class PhoneNumberLocaleViewModel : ViewModelBase
     {

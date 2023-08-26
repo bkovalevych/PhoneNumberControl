@@ -1,11 +1,11 @@
-using PhoneNumber.Models;
-using PhoneNumber.ViewModels;
+using PhoneNumber.WPF.Models;
+using PhoneNumber.WPF.ViewModels;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace PhoneNumber
+namespace PhoneNumber.WPF
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
@@ -57,6 +57,8 @@ namespace PhoneNumber
         public PhoneNumberControl()
         {
             InitializeComponent();
+            Resources.Add("ViewModel", new PhoneNumberControlViewModel());
+            
             _vm = GetVM(this);
             Loaded += async (sender, e) =>
             {
@@ -75,18 +77,19 @@ namespace PhoneNumber
         private void PhoneNumber_TextChanged(object sender, TextChangedEventArgs e)
         {
             InvokeChanged();
+            PhoneNumberChanged?.Invoke(this, e);
         }
 
         private void LocaleComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             InvokeChanged();
+            PhoneLocaleChanged?.Invoke(this, PhoneLocale);
         }
 
         private void InvokeChanged()
         {
             PhoneNumber = PhoneNumberTextBox.Text;
             PhoneLocale = LocaleComboBox.SelectedValue as PhoneNumberLocale;
-            PhoneLocaleChanged?.Invoke(this, PhoneLocale);
             FullPhoneNumber = GetFullPhoneNumber(PhoneLocale?.Phone, PhoneNumber);
             FullPhoneNumberChanged?.Invoke(this, FullPhoneNumber);
         }

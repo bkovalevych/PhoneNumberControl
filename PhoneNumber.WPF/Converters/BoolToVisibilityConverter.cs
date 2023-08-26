@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace PhoneNumber.Converters
+namespace PhoneNumber.WPF.Converters
 {
     internal class BoolToVisibilityConverter : IValueConverter
     {

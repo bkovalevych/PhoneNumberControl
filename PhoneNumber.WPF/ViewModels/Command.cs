@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace PhoneNumber.ViewModels
+namespace PhoneNumber.WPF.ViewModels
 {
-    public class Command : ICommand
+    internal class Command : ICommand
     {
         private Action _action;
         private Func<bool> _canExecute;

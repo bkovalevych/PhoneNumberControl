@@ -1,12 +1,12 @@
-﻿using PhoneNumber.Models;
-using PhoneNumber.Services;
+﻿using PhoneNumber.WPF.Models;
+using PhoneNumber.WPF.Services;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace PhoneNumber.ViewModels
+namespace PhoneNumber.WPF.ViewModels
 {
     internal class PhoneNumberControlViewModel : ViewModelBase
     {
@@ -30,7 +30,7 @@ namespace PhoneNumber.ViewModels
         public PhoneNumberLocale SelectedLocale { get => _selectedLocale; set => SetProperty(ref _selectedLocale, value); }
 
         public ObservableCollection<PhoneNumberLocale> FilterableLocales { get; set; } = new ObservableCollection<PhoneNumberLocale>();
-        
+
         public ICommand ClearFilterCommand => _clearFilterCommand ??= new Command(() =>
         {
             SearchText = string.Empty;

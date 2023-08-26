@@ -1,16 +1,14 @@
-﻿using PhoneNumber.Models;
+﻿using PhoneNumber.WPF.Models;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace PhoneNumber.Services
+namespace PhoneNumber.WPF.Services
 {
     internal class PhoneLocaleService
     {
@@ -18,7 +16,7 @@ namespace PhoneNumber.Services
 
         public PhoneLocaleService()
         {
-            _configPath = new Uri("/PhoneNumber;component/Resources/Locales/phoneNumberLocales.json", UriKind.Relative);
+            _configPath = new Uri("/PhoneNumber.WPF;component/Resources/Locales/phoneNumberLocales.json", UriKind.Relative);
         }
 
         public async Task<List<PhoneNumberLocale>> LoadLocales()
